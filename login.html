@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-image:url(l2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: forestgreen;
+  opacity: 0.8;
+}
+button { 
+       background-color: #4CAF50; 
+       width: 100%;
+        color: black; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer;
+         } 
+ form { 
+        border: 3px ;
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green;
+        box-sizing: border-box; 
+    } 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color:black;
+        width: 40%;
+    } 
+    .signup{
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    }
+</style> 
+</head>  
+<body>  
+    <center> <h1 style="color: black;font-size: 90px"> Farmer Login</h1> </center> 
+    <center><form>
+        <div class="container"> 
+            <label>Username : </label> 
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <a href="home.html"><button type="button"><b style="font-size: 15px">Login</b></button></a>
+            <input type="checkbox" checked="checked"><b>Remember me</b> 
+            <button type="button" class="cancelbtn" onclick="alert('Are you sure,you want to cancel?')"> <b>Cancel</b></button> 
+            Forgot <a href="#"> Forgot password? </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="signup.html"><button type="button" class="signup"> <b>Newuser?Signup</b></button></a>
+        </div> 
+    </form></center>
+
+</body>   
+</html>
+
+ 
